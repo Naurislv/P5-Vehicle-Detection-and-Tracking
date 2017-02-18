@@ -192,6 +192,7 @@ U.pim([test_image_DetectedCars])
 save_im = cv2.cvtColor(test_image_DetectedCars, cv2.COLOR_RGB2BGR)
 s = cv2.imwrite("test_image_detectedcars.jpg", save_im)
 ```
+![alt text][image4]
 
 In the end I created class 'detect_cars' which I used to detect, find and track cars. When initializing if test=True it performs single image car detection. After finding windows in image heat map was computed and final bounding box found using scipy label function and then draw on actual image. Below is code example of 'detect_cars' usage and test image examples. To remove false-positives I used 'apply_threshold' with threshold 1 or in other words needed at least two windows to overlap to count as a detection. With that I remove all false positives.
 

@@ -7,6 +7,13 @@ Fith project submission at Udacity Self Driving Nanodegree program - Vehicle det
 
 Resulted project video link : https://www.youtube.com/watch?v=wrO1LYdThLE&feature=youtu.be
 
+Training datasets can be downloaded :
+
+* cars : https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip
+* not cars : https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip
+
+All code can be found in Nauris_Dorbe_P5.ipynb
+
 ---
 
 **Vehicle Detection Project**
